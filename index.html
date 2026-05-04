@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>APIs Públicas — Exemplo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>APIs Públicas — Exemplo</h1>
+    <p class="subtitle">Três seções, cada uma consumindo uma API pública (fetch + .then)</p>
+  </header>
+
+  <main class="container">
+    <section id="user-section" class="section">
+      <h2>Usuário Aleatório (Random User)</h2>
+      <button id="user-btn">Obter Usuário</button>
+      <div id="user-result" class="result"></div>
+    </section>
+
+    <section id="pokemon-section" class="section">
+      <h2>Pokémon Aleatório (PokéAPI)</h2>
+      <button id="pokemon-btn">Obter Pokémon</button>
+      <div id="pokemon-result" class="result"></div>
+    </section>
+
+    <section id="cocktail-section" class="section">
+      <h2>Drink Aleatório (The Cocktail DB)</h2>
+      <button id="cocktail-btn">Obter Drink</button>
+      <div id="cocktail-result" class="result"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Feito com ❤️ — APIs públicas</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
